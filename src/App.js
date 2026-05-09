@@ -31,7 +31,7 @@ function App() {
     const clientId =
       "3MVG97L7PWbPq6Uyzciq_R4T7aMreB7iAYYdvlwYMyKtYLFKZShvaug.G4sz6UJcwX9xNZyIsa7qNvXsfohMl";
 
-    const redirectUri = "http://localhost:3000/callback";
+    const redirectUri = "https://sf-validation-manager-muqh.onrender.com";
 
     const authUrl = `https://login.salesforce.com/services/oauth2/authorize?response_type=token&client_id=${clientId}&redirect_uri=${redirectUri}`;
 
